@@ -22,25 +22,17 @@ To run the project locally, follow these steps:
 
 1.  Clone the repository:
 
-bashCopy code
-
 `git clone https://github.com/Teoble/myglicemia-fe`
 
 1.  Navigate to the project directory:
-
-bashCopy code
 
 `cd myglicemia-fe`
 
 1.  Install the dependencies:
 
-bashCopy code
-
 `npm install`
 
 1.  Start the development server:
-
-bashCopy code
 
 `npm start`
 
