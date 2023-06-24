@@ -1,0 +1,27 @@
+@import url('../index.css');
+
+.logo-container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 25px;
+}
+
+.logo-container__logo {
+  width: 32px;
+  height: 46px;
+}
+
+.logo-container__name {
+  font-size: 24px;
+}
+
+.logo-container__slogan {
+  font-size: 13px;
+}
+
+.logo-container__text--red {
+  color: var(--red);
+}

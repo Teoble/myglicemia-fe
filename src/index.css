@@ -1,11 +1,10 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+@import url('./reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+:root {
+  --red: #ea6e6e;
+  --white: #f5f5f5;
+  --black: #383939;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -14,3 +13,8 @@
   -webkit-text-size-adjust: 100%;
 }
 
+body {
+  background-color: var(--white);
+  color: var(--black);
+  font-family: 'Poppins', sans-serif;
+}

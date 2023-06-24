@@ -1,11 +1,11 @@
+import Header from './pages/Header';
 
 function App() {
-
   return (
     <>
-      <h1>My Glicemia</h1>
+      <Header />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
