@@ -1,5 +1,5 @@
-import Logo from './components/Logo';
-import Settings from './components/Settings';
+import Logo from './view/header/Logo';
+import Settings from './view/header/Settings';
 
 function App() {
   return (
