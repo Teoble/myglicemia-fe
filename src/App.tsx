@@ -1,9 +1,13 @@
-import Header from './pages/Header';
+import Logo from './components/Logo';
+import Settings from './components/Settings';
 
 function App() {
   return (
     <>
-      <Header />
+      <header>
+        <Settings />
+        <Logo />
+      </header>
     </>
   );
 }
