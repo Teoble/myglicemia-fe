@@ -1,0 +1,25 @@
+.nav__item {
+  width: 48px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__item svg {
+  stroke: var(--black);
+  width: 24px;
+  height: 24px;
+}
+
+.nav__item--selected {
+  border-bottom: 3px solid var(--red);
+}
+
+.nav__item--selected svg {
+  stroke: var(--red);
+}
+
+.nav__title {
+  display: none;
+}

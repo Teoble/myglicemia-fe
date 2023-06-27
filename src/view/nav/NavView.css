@@ -1,0 +1,6 @@
+.nav__container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  gap: 20px;
+}

@@ -1,5 +1,6 @@
 import Logo from './view/header/Logo';
 import Settings from './view/header/Settings';
+import NavView from './view/nav/NavView';
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <header>
         <Settings />
         <Logo />
+        <NavView />
       </header>
     </>
   );

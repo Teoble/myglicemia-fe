@@ -1,10 +1,11 @@
 import './Settings.css';
+import { ReactComponent as SettingSVG } from '../../assets/img/icons/setting.svg';
 
 const Settings = () => {
   return (
-    <div className="setting">
+    <div className="setting" data-testid="setting-component">
       <button className="setting__button">
-        <img className="setting__icon" src="src/assets/img/icons/setting.svg" />
+        <SettingSVG />
         <span>Settings</span>
       </button>
     </div>
